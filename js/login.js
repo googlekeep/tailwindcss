@@ -16,7 +16,8 @@ document.getElementById('btn-sumit').addEventListener('click', function(){
     // step-4: verify email and password and check wheter valid user or not
 
     if(email === 'admin@gmail.com' && password ==='hello'){
-        console.log('valid user')
+        window.location.href = "bank.html";
+
     }
     else{
         console.log('invalid user')
