@@ -14,7 +14,7 @@
         <div class="grid grid-cols-3 gap-4 w-9/12 mx-auto text-white">
           <div class="bg-green-600 p-8 rounded-xl">
             <h4 class="text-2xl">Deposit</h4>
-            <h2 class="text-5xl">$00</h2>
+            <h2  class="text-5xl">$ <span id="deposit-total">00</span></h2>
           </div>
           <div class="bg-yellow-500 p-8 rounded-xl">
             <h4 class="text-2xl">Withdraw</h4>
@@ -29,16 +29,16 @@
         </div>
 
 
-        <div class="grid grid-cols-2 gap-4 w-9/12 mx-auto text-white mt-12">
+        <div class="grid grid-cols-2 gap-4 w-9/12 mx-auto  mt-12">
           <div class="bg-orange-600 p-8 rounded-xl">
-            <h4 class="text-2xl">Please Depositt</h4>
-            <input type="text" value="" placeholder="$ amount you want to deposit">
-            <button class="bg-red-600" type="submit">Deposit</button>
+            <h4 class="text-2xl mb-4 text-white">Please Depositt</h4>
+            <input class="w-9/12 block mb-2 px-3" type="text" name="" id="deposit-field" placeholder="$ Amount you want to deposit">
+            <button id="btn-deposit" class=" hover:bg-sky-700   bg-amber-600 px-4 py-2 text-white font-medium rounded-lg" type="submit">Deposit</button>
           </div>
           <div class="bg-pink-500 p-8 rounded-xl">
-            <h4 class="text-2xl">Please Withdraw</h4>
-            <input type="text" value="" placeholder="$ amount you want to deposit">
-            <button class="bg-red-600" type="submit">Withdraw</button>
+            <h4 class="text-2xl mb-4 text-white">Please Withdraw</h4>
+            <input class="w-9/12 block mb-2 px-3" type="text" name="" id="Withdraw-field" placeholder="$ Amount you want to Withdraw">
+            <button id="btn-withdraw" class=" hover:bg-sky-700   bg-amber-600 px-4 py-2 text-white font-medium rounded-lg" type="submit">Withdraw</button>
             
           </div>
           
@@ -52,6 +52,6 @@
 
 
 
- <script src="./js/login.js"></script>
+ <script src="./js/deposit.js"></script>
 </body>
 </html>
